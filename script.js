@@ -36,7 +36,7 @@ var plotRanking = function(sortedData){
                 .enter()
                 .append("tr")
 
-  rows.append('td').html(function(movie, i) { return i + 1; }).classed("rank-col", true);
+  rows.append('td').html(function(movie, i) { return i + 2; }).classed("rank-col", true);
   rows.append('td').html(function(movie) { return movie.title; }).classed("title-col", true);
   rows.append('td').html(function(movie) { return movie.rt_score; }).classed("rating-col", true);
 
