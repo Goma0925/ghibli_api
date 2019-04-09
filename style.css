@@ -38,14 +38,14 @@ img{
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
-  background-color: #4CAF50;
+  background-color: #00ccff;
   color: white;}
 
 .heading{
   margin: 0;
   height: 70px;
-  background-color: black;
-  border-bottom: 4px solid grey;
+  background-color: #00ccff;
+  border-bottom: 4px solid #008fb3;
 }
 
 .title{
